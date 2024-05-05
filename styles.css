@@ -1,0 +1,140 @@
+.bodyy{
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRnmKfs-ejqbe-gKfe09HQT3vIZQ7Xd6Y2LddOBbnlLTw&s");
+    background-repeat: no-repeat;
+    background-position: 80px 60px;
+}
+
+.boxIni {
+    width: 500px;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+input {
+    border-radius: 15px;
+    border: 1px solid;
+    margin: 5px;
+    text-align: center;
+}
+
+.titulo {
+    background-color: rgb(216, 3, 3);
+    color: white;
+    text-align: center;
+}
+
+.card {
+    box-shadow: -8px 8px 18px;
+    border-radius: 5px 5px 22px 22px;
+}
+
+.cuerpo {
+    background-color: rgb(214, 212, 212);
+    border-radius: 0px 0px 20px 20px;
+}
+
+.bt {
+    background-color: rgb(71, 140, 197);
+    color: white;
+    width: 130px;
+    margin-top: 25px;
+    padding: 5px;
+    border: none;
+}
+
+.bt:hover{
+    background-color: #03569b;
+}
+
+.bt:active{
+    background-color: #007add;
+}
+
+.navbarCSS{
+    background-color: rgb(216, 3, 3);
+    color: white;
+    font-size: 20px;
+}
+
+.active{
+    font-weight: 100;
+    font-size: 20px;
+    color: white !important;
+}
+
+.logOut{
+    margin-left: auto;
+    margin-right: 20px;
+    margin-bottom: 5px;
+}
+
+.hoverOut:hover{
+    color: black;
+}
+
+.informacion{
+    text-align: center;
+    width: 85%;
+    height: 60%;
+    background-color: rgb(197, 197, 197);
+    position: fixed;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 20px;
+    box-shadow: 8px 8px 12px;
+}
+
+.tituStats{
+    padding-top: 50px;
+    text-shadow: 2px 2px 5px;
+}
+
+.contenedorDivs{
+    margin-bottom: 20px;
+    padding-bottom: 50px;
+}
+.disp{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+.stats{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    box-shadow: 8px 8px 12px;
+    font-size: 40px;
+    font-weight: bold;
+    text-shadow: 2px 2px 5px;
+}
+
+.Rep{
+    background-color: #3d92d8;
+}
+
+.Env{
+    background-color: #00dd93;
+}
+
+.Reco{
+    background-color: #df8d12;
+}
+
+.file-input{
+    display: none;
+}
+
+.botonEnviar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 100px;
+}
