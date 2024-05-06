@@ -21,13 +21,13 @@
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav">
                     <li class="nav-item me-3">
-                        <a class="nav-link active navbarCSS" aria-current="page" href="page.html">INICIO</a>
+                        <a class="nav-link navbarCSS" aria-current="page" href="page.html">INICIO</a>
                     </li>
                     <li class="nav-item me-3">
                         <a class="nav-link navbarCSS" href="#">LIQUIDACIÓN</a>
                     </li>
                     <li class="nav-item me-3">
-                        <a class="nav-link navbarCSS" href="repartidores.html">REPARTIDORES</a>
+                        <a class="nav-link active navbarCSS" href="repartidores.html">REPARTIDORES</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link navbarCSS" href="#">CIERRE DEL DIA</a>
@@ -47,30 +47,33 @@
             </div>
         </div>
     </nav>
-    <div>
-        <div class="informacion">
-            <h2 class="tituStats">ESTADISTICAS</h2>
-            <div class="row contenedorDivs">
-                <div class="col-4 disp">
-                    <div class="stats Rep" id="resultado">158</div>
-                </div>
-                <div class="col-4 disp">
-                    <div class="stats Env">12300</div>
-                </div>
-                <div class="col-4 disp">
-                    <div class="stats Reco">250</div>
-                </div>
-                <div class="col-4 mt-3 fw-bold fs-2 p-4">NUM DE REPARTIDORES</div>
-                <div class="col-4 mt-3 fw-bold fs-2 p-4">ENVIOS EN REPARTO</div>
-                <div class="col-4 mt-3 fw-bold fs-2 p-4">TOTAL DE RECOGIDAS</div>
-            </div>
-        </div>
-
-        <div class="fixed-bottom botonEnviar">
-            <label for="archivo" class="btn btn-success fw-semibold fs-4">Seleccionar un archivo</label>
-            <input type="file" id="archivo" class="file-input" accept=".csv">
-        </div>
+    <div class="container">
+        <table class="table table-striped table-bordered mt-4">
+            <thead>
+                <tr>
+                    <th>Cod de Ruta</th>
+                    <th>Proveedor</th>
+                    <th>Env reparto</th>
+                    <th>Rec</th>
+                    <th>Entregados</th>
+                    <th>Recogidas</th>
+                    <th>Efectividad</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>460P0001</td>
+                    <td>CTT</td>
+                    <td>100</td>
+                    <td>2</td>
+                    <td>98</td>
+                    <td>1</td>
+                    <td>100%</td>
+                </tr>
+            </tbody>
+        </table>
     </div>
+    
 
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
