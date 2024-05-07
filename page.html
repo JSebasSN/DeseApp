@@ -52,13 +52,13 @@
             <h2 class="tituStats">ESTADISTICAS</h2>
             <div class="row contenedorDivs">
                 <div class="col-4 disp">
-                    <div class="stats Rep" id="resultado">158</div>
+                    <div class="stats Rep" id="resultRep"></div>
                 </div>
                 <div class="col-4 disp">
-                    <div class="stats Env" id="resultado"></div>
+                    <div class="stats Env" id="resultEnv"></div>
                 </div>
                 <div class="col-4 disp">
-                    <div class="stats Reco">250</div>
+                    <div class="stats Reco" id="resultReco"></div>
                 </div>
                 <div class="col-4 mt-3 fw-bold fs-2 p-4">NUM DE REPARTIDORES</div>
                 <div class="col-4 mt-3 fw-bold fs-2 p-4">ENVIOS EN REPARTO</div>
@@ -67,17 +67,19 @@
         </div>
 
         <div class="fixed-bottom botonEnviar">
-            <label for="loadFileBtn" class="btn btn-success fw-semibold fs-4">Seleccionar un archivo</label>
-            <input type="file" id="loadFileBtn" class="file-input" accept=".csv">
+            <label for="excel-file" class="btn btn-success fw-semibold fs-4">Seleccionar un archivo</label>
+            <input type="file" id="excel-file" class="file-input" accept=".xlsx">
         </div>
     </div>
 
-
+    <script src="script.js "></script>
+    <!-- use version 0.20.2 -->
+    <script lang="javascript" src="https://cdn.sheetjs.com/xlsx-0.20.2/package/dist/xlsx.full.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
         crossorigin="anonymous"></script>
 
-    <script src="script.js "></script>
+    
 </body>
 
 </html>
