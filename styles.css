@@ -7,12 +7,12 @@
 .boxIni {
     width: 500px;
     position: fixed;
-    top: 50%;
+    top: 50%; 
     left: 50%;
     transform: translate(-50%, -50%);
 }
 
-input {
+.usr-pass {
     border-radius: 15px;
     border: 1px solid;
     margin: 5px;
@@ -138,3 +138,10 @@ input {
     justify-content: center;
     margin-bottom: 2%;
 }
+
+.alinearInput{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
